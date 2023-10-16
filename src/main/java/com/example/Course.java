@@ -27,6 +27,9 @@ public class Course {
     public void enrollStudent(Student student){
         students.add(student);
     }
-    
+    public void dropStudent(Student student){
+        students.remove(student);
+    }
+
     // TODO: Implement methods to enroll a student and drop a student
 }
